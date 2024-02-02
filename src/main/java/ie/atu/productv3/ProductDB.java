@@ -53,9 +53,9 @@ public class ProductDB {
             mySoftware.setPrice(54.50);
             mySoftware.setVersion("Oracle 3.0");
         }
-        ie.atu.productv3.Tv myTv = null;
+        ie.atu.productv3.TV myTv = null;
         if (productCode.equalsIgnoreCase("549410")) {
-            myTv = new ie.atu.productv3.Tv();
+            myTv = new ie.atu.productv3.TV();
             myTv.setCode(productCode);
             myTv.setDescription("Smart 4K ultra HD HDR LED TV");
             myTv.setPrice(379.00);
@@ -65,7 +65,7 @@ public class ProductDB {
         }
 
         if (productCode.equalsIgnoreCase("601510")) {
-            myTv = new ie.atu.productv3.Tv();
+            myTv = new ie.atu.productv3.TV();
             myTv.setCode(productCode);
             myTv.setDescription("HD ready LED TV");
             myTv.setPrice(219.00);
@@ -75,7 +75,7 @@ public class ProductDB {
         }
 
         if (productCode.equalsIgnoreCase("529217")) {
-            myTv = new ie.atu.productv3.Tv();
+            myTv = new ie.atu.productv3.TV();
             myTv.setCode(productCode);
             myTv.setDescription("Smart Full HD LED TV");
             myTv.setPrice(249.00);
@@ -90,5 +90,3 @@ public class ProductDB {
 //  public static Book or Software getProduct(String productCode) {
 // In a more realistic application, this code would get the data for the product from a file or database
 // For now, this code just uses if/else statements to return the correct product data
-
-}
